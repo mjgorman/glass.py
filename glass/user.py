@@ -30,7 +30,7 @@ class User(object):
         self.timeline = Timeline(self)
         self.contacts = Contacts(self)
 
-    def refresh_token(self):
+    def get_refresh_token(self):
         """
         Refresh user token and return tokens dict
         """
